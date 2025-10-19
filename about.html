@@ -1,0 +1,140 @@
+<doctype html>
+    <html>
+        <head>
+        
+
+            </title>
+            <style>
+    /* Basic styling */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      background-color: r;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    .logo {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      color: red;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #ffcc00;
+    }
+
+    /* Hamburger icon */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+    }
+
+    .bar {
+      width: 25px;
+      height: 3px;
+      background-color: white;
+      margin: 4px 0;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: greenyellow;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        text-align: center;
+      }
+
+      .nav-links.active {
+        display: flex;
+      }
+
+      .hamburger {
+        display: flex;
+      }
+    }
+  </style>
+</head>
+<body>
+<div style="background-color: aqua;">
+  <nav>
+
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Contact.html">contact</a></li>
+      <li><a href="Admission.html">Admission</a></li>
+    </ul>
+    
+
+    <div class="hamburger" id="hamburger">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </nav>
+
+  <script>
+    // Toggle menu
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+
+             <h1><marquee>WELCOME TO MAWOGOLA HIGH SCHOOL</marquee></h1>
+
+        </head>
+        <body>
+            <P style="color: blue;">OUR MISSION</P>
+            <P>"Educating all students at affordable fees"</P>
+            <P style="color: blue;">OUR VISSION</P>
+            <P>"To be among best schools in uganda through hiring proffesional staff"</P>
+            <p style="color: blue;">OUR OBJECTIVES</p>
+            </div>
+            <div style="background-color: grey;color:greenyellow">
+            <P>Promoting islamic teaching and behaviours<br>
+            <p>producing good academic results<br>
+            <p>promoting the teaching of arts and science subjects<br>
+            <p>Encouraging staff for re-trainig and upgrading<br>
+            <p>promoting good morals among teachers, students and other staff members<br>
+            <p>promoting co-curricular academics<br> </P>
+             
+                <p style="color: blue;">SCHOOL MOSQUEE</p>
+                <img src="img6.png"width="700px"height="500px">
+ 
+        </body>
+                       <footer>
+    <div style="color: blue;text-align: center;border-radius: 50px;font-size:large;">
+<p>&copy2025 MHS. All rights reserved to educate young generation</p>
+</footer>
+</div>
+</div>
+    </html>
+</doctype>

@@ -1,0 +1,155 @@
+<doctype html>
+    <html> 
+        <head>
+          <div style="background-color: aqua;">
+        <tittle style="color: blue;">MAWOGOLA HIGH SCHOOL;WE TOIL FOR BRIGHT FUTURE</title>   
+         
+
+            <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+        </head>
+            
+                
+  <style>
+    /* Basic styling */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      background-color: r;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    .logo {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      color: red;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #ffcc00;
+    }
+
+    /* Hamburger icon */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+    }
+
+    .bar {
+      width: 25px;
+      height: 3px;
+      background-color:white;
+      margin: 4px 0;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color:greenyellow;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        text-align: center;
+      }
+
+      .nav-links.active {
+        display: flex;
+      }
+
+      .hamburger {
+        display: flex;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+
+
+  
+    <ul class="nav-links" id="navLinks">
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Contact.html">contact</a></li>
+      <li><a href="Admission.html">Admission</a></li>
+    </ul>
+    
+
+    <div class="hamburger" id="hamburger">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </nav>
+
+  <script>
+    // Toggle menu
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+
+                
+           
+            
+            <h1><marquee>WELCOME TO MAWOGOLA HIGH SCHOOL</marquee></h1>
+            <div class="container">
+                <section class="hero">
+            <img src="img1.png"width="100px" height="100px">
+            </div>
+        </section>
+            <div style="color:blue ;">
+            <p>Located in ssembabule district,</p>
+            <p>Mateete sub-county,</p>
+            <p>Bukulula village</p></div>
+            </div>
+            <div style="background-color: grey;">
+                <p style="color: blue;">OUR MAIN LAB</p>
+               
+                 <img src="img4.png"width="700px" height="400px">
+                
+                 
+            
+           
+            </div>
+            
+            
+        </head>
+        <body>
+        </body>
+                       <footer>
+    <div style="color: blue;text-align: center;font-size: larger;">
+<p>&copy2025 MHS. All rights reserved to educate young generation</p>
+</footer>
+
+        
+    </html>
+</doctype>
+</div>
